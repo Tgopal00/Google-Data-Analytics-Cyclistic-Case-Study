@@ -27,3 +27,14 @@ To examine the differences between casual and annual members who use Cyclistic b
 
 ### 1d. Key Stakeholder
 **Cyclistic executive team**: The detailed-oriented executive team will decide whether to approve my recommended marketing program. My recommendations must be backed up with *compelling insights* and *professional data visualizations*.
+
+## STEP 2: PREPARE
+### 2a. Data Source 
+### 2b. Description of Data Set 
+### 2c. Does your data ROCCC?
+
+
+
+
+
+
