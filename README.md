@@ -30,9 +30,37 @@ To examine the differences between casual and annual members who use Cyclistic b
 
 ## STEP 2: PREPARE
 ### 2a. Data Source 
-### 2b. Description of Data Set 
-### 2c. Does your data ROCCC?
+I will use Cyclistic's historial data to analyze and identify trends from April 2022 to March 2023. The datasets will be downloaded from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) and have been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement). Due to data-privacy issues, riders' personal identifiable information is not provided. 
 
+*NOTE: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will allow me to answer the business objectives.*
+
+### 2b. Description of Data Set 
+There are 12 files following the naming convention of "YYYYMM-divvy-tripdata". Each file includes information for one month and consists of 13 columns. The title of each column as well as a brief description of it's contents are described down below: 
+
+1. **ride_id**: unique alpha-numeric id of each rider
+2. **rideable_type**: type of bike (docked, classic, or electric) used by each rider 
+3. **started_at**: datetime of the start of each ride
+4. **ended_at**: datetime of the end of each ride
+5. **start_station_name**: name of start station
+6. **start_station_id**: unique alpha-numeric or integer only id for each start station
+7. **end_station_name**: name of end station
+8. **end_station_id**: unique alpha-numeric or integer only id for each end station
+9. **start_lat**: start station latitude
+10. **start_lng**: start station longitude
+11. **end_lat**: end station latitude
+12. **end_lng**: end station longitude
+13. **member_casual**: type (member or casual) of riders 
+
+### 2c. Does your data ROCCC?
+A good data source is: **R**eliable, **O**riginal, **C**omprehensive, **C**urrent, and **C**ited. In other words, it ROCCC's! I will examine the datasets based on these five factors to determine if the datasets are good sources of data. 
+
+- **Reliable:** MED - Some of the datasets have a number of missing values in the following columns: start_station_name, end_station_name, start_station_id, and end_station_id which means the data is not complete. However, the remaining columns have no missing values and are accurate. 
+- **Original:** HIGH - Divvy bikes collects their own data on rider usage 
+- **Comprehensive:** MED - Despite some of the data sets being incomplete, the datasets include a decent amount of information that will allow me to answer the business question. 
+- **Current:** HIGH - The datasets include data from April 2022 to March 2023 which means it is pretty current.
+- **Cited:** HIGH - The datasets were created and provided by Divvy, a bike-share program located in Chicago. The datasets are updated and made public on a monthly basis.
+
+Overall, the dataset is considered to be of good quality and will be useful in producing recommendations for the company. 
 
 
 
