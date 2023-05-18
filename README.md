@@ -80,10 +80,30 @@ To account for easier import into MySQL, I did some initial cleaning of each fil
    I added two new columns: ride_length and day_of_week. The *ride_length* column consists of the duration of each ride and was found by subtracting the started_at column from the ended_at column. The *day_of_week* column consists of the day of the week that each ride started and was found by using the WEEKDAY command in Excel. This returned an integer value where 1 = Sunday and 7 = Saturday. 
    
 ### 3b. Further Cleaning in MySQL
+
+MySQL Queries:
+
+For Step 1, refer to [combining data]
+
+For Step 2 & 3, refer to [cleaning data] 
+
 1. *Importing and Combining Data Sets*
 
-   Once the initial cleaning of the files were completed in Excel, the files were converted into CSV format and were imported to MySQL. 
-#### 2. Cleaning Data Sets 
+   Once the initial cleaning of the files were completed in Excel, the files were converted into CSV format and were uploaded to MySQL in the form of tables. Each table represented a single data file. In total, there were 12 tables and they were combined into a single table called "bike_data_combined" to create a full year view of the data from April 2022 to March 2023. In total, the combined table resulted in 5,803,720 records.
+   
+2. *Cleaning Combined Data Table and Creating a New Table*
+
+   I begain to further clean the combined data table by first checking for duplicate values. There were no duplicate records found. Next, I checked for missing values. I found there were a number of missing values from the start_station_name and the end_station_name column and I did not want those records to be a part of my analysis. In addition to this, I checked for ride_length values that could affect my analysis. For example, a ride_length value that is negative, less than one minute, or greater than 24 hours. 
+   
+   I created a new table called "bike_data_combined_clean" by selecting all the columns from the "bike_data_combined" table where the start_station_name and end_station_name columns did not have null values and where the ride_length columns had values greater than or equal to a minute and less than or equal to 24 hours. This resulted in a final clean data table with 4,398,200 records.
+   
+3. *Adding New Columns to "bike_data_combined_clean"*
+
+   To aid in my analysis, I included a few more columns that would be helpful in answering the business objectives. I created a new **day_of_the_week** column in order to change the integer value to the actual day it represented. I created a **month_name** and **season_name** column to examine the differences among members and casual riders during various times of the year. I created a **start_time_of_day** column to analyze rides by time of day. Finally, I created a **ride_length_in_minutes** column to allow me to easily apply aggregate functions to analyze the values. 
+
+
+
+
 
 
 
