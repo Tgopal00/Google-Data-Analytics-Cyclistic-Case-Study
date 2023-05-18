@@ -64,8 +64,25 @@ Overall, the dataset is considered to be of good quality and will be useful in p
 
 ## STEP 3: PROCESS
 ### 3a. Initial Cleaning in Excel
+To account for easier import into MySQL, I did some initial cleaning of each file in Excel by completing the following:
+1. *Checked if each column had the appropriate data types*
+
+      The started_at and ended_at columns consisted of datatime values formatted as "MM/DD/YY hh:mm". A custom datetime format formatted as       "YYYY-MM-DD hh:mm:ss" was created for both columns since this is the appropriate datetime value that MySQL accepts. The remaining      columns consisted of the appropriate data types. 
+
+2. *Deleted columns not relevant to answering the business objectives* 
+
+   The following columns were deleted: start_station_id, end_station_id, start_lat, start_lng, end_lat, end_lang. 
+   
+   NOTE: While the longitude and latitude columns for both the start and end stations would be useful in visualizing a map, I chose not to  include this in my analysis. 
+   
+3. *Added two new columns*
+
+   I added two new columns: ride_length and day_of_week. The *ride_length* column consists of the duration of each ride and was found by subtracting the started_at column from the ended_at column. The *day_of_week* column consists of the day of the week that each ride started and was found by using the WEEKDAY command in Excel. This returned an integer value where 1 = Sunday and 7 = Saturday. 
+   
 ### 3b. Further Cleaning in MySQL
-#### 1. Importing and Combining Data Sets
+1. *Importing and Combining Data Sets*
+
+   Once the initial cleaning of the files were completed in Excel, the files were converted into CSV format and were imported to MySQL. 
 #### 2. Cleaning Data Sets 
 
 
