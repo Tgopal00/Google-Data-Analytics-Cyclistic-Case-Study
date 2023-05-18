@@ -2,7 +2,7 @@
 This optional capstone project is from the final course of the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) on Coursera. 
 
 ## INTRODUCTION
-For this case study, I have been asked to perform many real-world tasks of a junior data analyst working in the marketing analyst team at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [**ask**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-1-ask), [**prepare**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/README.md#step-2-prepare), **process**, **analyze**, **share**, and **act**.
+For this case study, I have been asked to perform many real-world tasks of a junior data analyst working in the marketing analyst team at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [**ask**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-1-ask), [**prepare**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-2-prepare), [**process**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-3-process), **analyze**, **share**, and **act**.
 
 ## STEP 1: ASK
 ### How Does a Bike-Share Navigate Speedy Success?
@@ -82,10 +82,8 @@ To account for easier import into MySQL, I did some initial cleaning of each fil
 ### 3b. Further Cleaning in MySQL
 
 MySQL Queries:
-
-For Step 1, refer to [combining data]
-
-For Step 2 & 3, refer to [cleaning data] 
+- For Step 1, refer to [combining data](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_combined.sql)
+- For Step 2 & 3, refer to [cleaning data](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_cleaned.sql)
 
 1. *Importing and Combining Data Sets*
 
