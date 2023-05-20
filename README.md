@@ -98,6 +98,20 @@ MySQL Queries:
 3. *Adding New Columns to "bike_data_combined_clean"*
 
    To aid in my analysis, I included a few more columns that would be helpful in answering the business objectives. I created a new **day_of_the_week** column in order to change the integer value to the actual day it represented. I created a **month_name** and **season_name** column to examine the differences among members and casual riders during various times of the year. I created a **start_time_of_day** column to analyze rides by time of day. Finally, I created a **ride_length_in_minutes** column to allow me to easily apply aggregate functions to analyze the values. 
+   
+## STEP 4: ANALYZE 
+MySQL Query: Refer to
+
+The business objective is to determine how casual and annual members differ and to design a new marketing strategy to convert casual riders into annual members, thus maximizing the number of annual memberships. In order to determine how casual and annual members differed, I decided to consider a number of factors I thought to be important in determining the differences between these two types of riders. 
+
+To examine how casual and annual members differed I...
+- Determined how many casual and annual members were in the dataset
+- Determined the most favored bike type of casual and annual riders
+- Calculated the average ride length for both rider types
+- Examined the number of rides by day of the week, start time of the day, month, and season for both rider types 
+- Calculated the average ride length by the day of the week, start time of the day, month, and season for both rider types
+- Determined the top 20 start and end stations for each rider type
+
 
 
 
