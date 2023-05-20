@@ -118,11 +118,43 @@ To examine how casual and annual members differed I...
 Based on my analysis, I found that there are differences between casual and annual members. Here I will further describe the findings of my analysis as well as include necessary charts, graphs, and tables that help visualize trends/relationships found in the data. 
 
 1. *Descriptive Statistics*
+    
+    <img width="415" alt="Screenshot 2023-05-20 at 6 50 11 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/bd021c4b-92ee-4df4-a46c-024624c72ae5">
+    
 2. *Type of Bikes Used By Riders*
+    
+    <img width="477" alt="Screenshot 2023-05-20 at 6 50 23 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/06856ce9-4bf8-45ee-8135-bf876930ccc4">
+
 3. *Number of Rides by Day of the Week, Start Time of the Day, Month, and Season for Both Rider Types*
+
+    <img width="493" alt="Screenshot 2023-05-20 at 6 55 05 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/1eb2f819-e227-434e-a5d3-fc93bdfe70b7"> 
+    
+    <img width="977" alt="Screenshot 2023-05-20 at 7 02 40 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/48792e45-f2ec-4864-9b70-bc53fd54fcbb">
+    
+    <img width="856" alt="Screenshot 2023-05-20 at 7 05 17 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/f07a3066-1d31-4134-9b1f-44c016cdc419">
+    
+    <img width="573" alt="Screenshot 2023-05-20 at 7 07 58 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/ac1d0414-a619-4eb1-a2f5-f95ee2ff003d">
+
 4. *Average Ride Length by Day of the Week, Start Time of the Day, Month, and Season for Both Rider Types*
+
+    <img width="614" alt="Screenshot 2023-05-20 at 7 11 17 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/7be9e8f5-a59f-4e9a-94c9-a312d5130f68">
+    
+    <img width="980" alt="Screenshot 2023-05-20 at 7 11 25 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/73eaa728-fa67-4ed0-9fc3-a4184d6b8748">
+    
+    <img width="818" alt="Screenshot 2023-05-20 at 7 11 53 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/f252e253-497b-404c-b4ae-0734d6f4f4c3">
+    
+    <img width="548" alt="Screenshot 2023-05-20 at 7 12 12 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/9012b296-e947-4ffc-92cd-94a38e63e024">
+
 5. *Top 10 Start and End Stations for Each Rider Type* 
 
+    <img width="1150" alt="Screenshot 2023-05-20 at 7 14 23 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/417fef23-2c03-461e-906d-f939ba0e1edd">
+    
+    <img width="1143" alt="Screenshot 2023-05-20 at 7 14 35 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/0b2fe705-ebd7-49cb-b1fc-834a6e2dab45">
+
+## STEP 6: ACT
+## 6a. What are the main trends/relationships identified in the analysis? 
+## 6b. How can these trends apply to Cyclistic's new marketing strategy?
+## 6c. Next steps/Future Directions
 
 
 
