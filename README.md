@@ -2,7 +2,7 @@
 This optional capstone project is from the final course of the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) on Coursera. 
 
 ## INTRODUCTION
-For this case study, I have been asked to perform many real-world tasks of a junior data analyst working in the marketing analyst team at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [**ask**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-1-ask), [**prepare**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-2-prepare), [**process**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-3-process), **analyze**, **share**, and **act**.
+For this case study, I have been asked to perform many real-world tasks of a junior data analyst working in the marketing analyst team at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [**ask**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-1-ask), [**prepare**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-2-prepare), [**process**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-3-process), [**analyze**](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study#step-4-analyze), **share**, and **act**.
 
 ## STEP 1: ASK
 ### How Does a Bike-Share Navigate Speedy Success?
@@ -81,9 +81,9 @@ To account for easier import into MySQL, I did some initial cleaning of each fil
    
 ### 3b. Further Cleaning in MySQL
 
-MySQL Queries:
-- For Step 1, refer to [combining data](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_combined.sql)
-- For Step 2 & 3, refer to [cleaning data](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_cleaned.sql)
+**MySQL Queries:**
+- For Step 1, refer to [bike_data_combined](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_combined.sql)
+- For Step 2 & 3, refer to [bike_data_cleaned](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_cleaned.sql) 
 
 1. *Importing and Combining Data Sets*
 
@@ -100,7 +100,7 @@ MySQL Queries:
    To aid in my analysis, I included a few more columns that would be helpful in answering the business objectives. I created a new **day_of_the_week** column in order to change the integer value to the actual day it represented. I created a **month_name** and **season_name** column to examine the differences among members and casual riders during various times of the year. I created a **start_time_of_day** column to analyze rides by time of day. Finally, I created a **ride_length_in_minutes** column to allow me to easily apply aggregate functions to analyze the values. 
    
 ## STEP 4: ANALYZE 
-MySQL Query: Refer to
+**MySQL Query:** Refer to [bike_data_analysis](https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/bike_data_analysis.sql)
 
 The business objective is to determine how casual and annual members differ and to design a new marketing strategy to convert casual riders into annual members, thus maximizing the number of annual memberships. In order to determine how casual and annual members differed, I decided to consider a number of factors I thought to be important in determining the differences between these two types of riders. 
 
@@ -110,9 +110,18 @@ To examine how casual and annual members differed I...
 - Calculated the average ride length for both rider types
 - Examined the number of rides by day of the week, start time of the day, month, and season for both rider types 
 - Calculated the average ride length by the day of the week, start time of the day, month, and season for both rider types
-- Determined the top 20 start and end stations for each rider type
+- Determined the top 10 start and end stations for each rider type
 
+## STEP 5: SHARE
+**Tableau:** Check out my final visualization by clicking [here](https://public.tableau.com/app/profile/tishmattie.gopal/viz/GoogleDataAnalyticsCyclisticCaseStudy/GoogleDataAnalyticsCyclisticCaseStudy)
 
+Based on my analysis, I found that there are differences between casual and annual members. Here I will further describe the findings of my analysis as well as include necessary charts, graphs, and tables that help visualize trends/relationships found in the data. 
+
+1. *Descriptive Statistics*
+2. *Type of Bikes Used By Riders*
+3. *Number of Rides by Day of the Week, Start Time of the Day, Month, and Season for Both Rider Types*
+4. *Average Ride Length by Day of the Week, Start Time of the Day, Month, and Season for Both Rider Types*
+5. *Top 10 Start and End Stations for Each Rider Type* 
 
 
 
