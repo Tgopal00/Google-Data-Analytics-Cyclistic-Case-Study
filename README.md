@@ -51,7 +51,7 @@ There are 12 files following the naming convention of "YYYYMM-divvy-tripdata". E
 12. **end_lng**: end station longitude
 13. **member_casual**: type (member or casual) of riders 
 
-### 2c. Does your data ROCCC?
+### 2c. Does the data ROCCC?
 A good data source is: **R**eliable, **O**riginal, **C**omprehensive, **C**urrent, and **C**ited. In other words, it ROCCC's! I will examine the datasets based on these five factors to determine if the datasets are good sources of data. 
 
 - **Reliable:** MED - Some of the datasets have a number of missing values in the following columns: start_station_name, end_station_name, start_station_id, and end_station_id which means the data is not complete. However, the remaining columns have no missing values and are accurate. 
