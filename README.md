@@ -75,7 +75,7 @@ Overall, the dataset is considered to be of good quality and will be useful in p
 To account for easier import into MySQL, I did some initial cleaning of each file in Excel by completing the following:
 1. *Checked if each column had the appropriate data types*
 
-      The started_at and ended_at columns consisted of datatime values formatted as "MM/DD/YY hh:mm". A custom datetime format formatted as       "YYYY-MM-DD hh:mm:ss" was created for both columns since this is the appropriate datetime value that MySQL accepts. The remaining      columns consisted of the appropriate data types. 
+      The started_at and ended_at columns consisted of datetime values formatted as "MM/DD/YY hh:mm". A custom datetime format formatted as       "YYYY-MM-DD hh:mm:ss" was created for both columns since this is the appropriate datetime value that MySQL accepts. The remaining      columns consisted of the appropriate data types. 
 
 2. *Deleted columns not relevant to answering the business objectives* 
 
@@ -99,7 +99,7 @@ To account for easier import into MySQL, I did some initial cleaning of each fil
    
 2. *Cleaning Combined Data Table and Creating a New Table*
 
-   I begain to further clean the combined data table by first checking for duplicate values. There were no duplicate records found. Next, I checked for missing values. I found there were a number of missing values from the start_station_name and the end_station_name column and I did not want those records to be a part of my analysis. In addition to this, I checked for ride_length values that could affect my analysis. For example, a ride_length value that is negative, less than one minute, or greater than 24 hours. 
+   I begain to further clean the combined data table by first checking for duplicate values. There were no duplicate records found. Next, I checked for missing values. I found there were a number of missing values from the start_station_name and the end_station_name column and I did not want those records to be a part of my analysis. In addition to this, I checked for ride_length values that could affect my analysis. For example, a ride_length value that is negative, less than one minute, or greater than 24 hours was not included in my analysis.
    
    I created a new table called "bike_data_combined_clean" by selecting all the columns from the "bike_data_combined" table where the start_station_name and end_station_name columns did not have null values and where the ride_length columns had values greater than or equal to a minute and less than or equal to 24 hours. This resulted in a final clean data table with 4,398,200 records.
    
@@ -189,7 +189,7 @@ Based on my analysis, I found that there are differences between casual and annu
 - Casual riders ride approximately two times the amount of members and prefer to ride on the weekends whereas members prefer to ride on the weekdays. 
 - For members, work hours (8AM and 5PM) is considered the most popular time of day to ride and the duration of their trips are relatively stable. However, for casual riders, 5PM is considered the most popular time of day to ride but the duration of their trips are the longest from 10AM to 2PM.
 - Summer is the most popular time of the year for both casual riders and members. 
-- Preferred start and end stations of casual riders consist of parks, museums, theaters, shorelines, and other recreational sites, thus indicating their preference for attractions and leisure activities. Preferred start and end stations for members consist of universities, transporation centers, grocery stores, and resedential areas. 
+- Preferred start and end stations of casual riders consist of parks, museums, theaters, shorelines, and other recreational sites, thus indicating their preference for attractions and leisure activities. Preferred start and end stations for members consist of universities, transporation centers, grocery stores, and resedential areas, thus indicating there preference for using bikes as a way to carry out their daily routines (e.g. going to and from work, home, buying goods, etc.). 
 
 ### 6b. How can these trends apply to Cyclistic's new marketing strategy?
 After identifying the main differences between casual riders and members, a new marketing strategy in order to convert casual riders into members should consider these three recommendations:
@@ -199,9 +199,4 @@ After identifying the main differences between casual riders and members, a new 
 3. Lastly, it would be wise to consider the trip durations of casual riders. Implementing a system where longer rides can equate to memberships discounts and sales may influence casual riders to convert to members.
 
 ### 6c. Next steps/Future Directions
-For the future growth of Cyclistic, it would be important to gather more data on the riders in order to bring in more customers. For example, knowing the age of people who frequently ride Cyclistic bikes and whether they are a student, employed, unemployed, etc. will allow for stronger marketing campaigns or even new membership plans (e.g. student or off-peak memberships) that can aid in the successful growth of Cyclistic.
-
-
-
-
-
+For the future growth of Cyclistic, it would be important to gather more data on the riders in order to bring in more customers. For example, knowing the age of people who frequently ride Cyclistic bikes and whether they are a student, employed, unemployed, etc. will allow for stronger marketing campaigns or even new membership plans (e.g. student or off-peak memberships) that can aid in the growth of Cyclistic.
