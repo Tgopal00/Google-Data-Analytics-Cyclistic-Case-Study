@@ -126,8 +126,8 @@ To examine how casual and annual members differed I...
 Based on my analysis, I found that there are differences between casual and annual members. Here I will further describe the findings of my analysis as well as include necessary charts, graphs, and tables that help visualize trends/relationships found in the data. 
 
 1. *Descriptive Statistics*
-    
-    <img width="415" alt="Screenshot 2023-05-20 at 6 50 11 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/bd021c4b-92ee-4df4-a46c-024624c72ae5">
+
+    <img width="415" alt="Screenshot 2023-05-20 at 6 50 11 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/f903cdcf-0dda-45ab-b107-37d7c4fa3559">
     
     This table represents a summary of the data set. In total, there were 4,398,200 riders with around 60% of the riders being members and 40% being casual riders. On average, casual riders ride their bikes for longer periods of time compared to members. 
     
