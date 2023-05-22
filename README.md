@@ -132,52 +132,52 @@ Based on my analysis, I found that there are differences between casual and annu
     This table represents a summary of the data set. In total, there were 4,398,200 riders with around 60% of the riders being members and 40% being casual riders. On average, casual riders ride their bikes for longer periods of time compared to members. 
     
 2. *Type of Bikes Used By Riders*
-    
-    <img width="477" alt="Screenshot 2023-05-20 at 6 50 23 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/06856ce9-4bf8-45ee-8135-bf876930ccc4">
+
+    <img width="477" alt="Screenshot 2023-05-20 at 6 50 23 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/c24c9c88-6f14-4eb9-869b-93f56526733f">
 
     Classic and electric bikes are the most commonly used bikes by both members and casual riders. However, there are roughly 10% of casual riders who prefer docked bikes. 
     
 3. *Number of Rides by Day of the Week, Start Time of the Day, Month, and Season for Both Rider Types*
-
-    <img width="493" alt="Screenshot 2023-05-20 at 6 55 05 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/1eb2f819-e227-434e-a5d3-fc93bdfe70b7"> 
+      
+      <img width="493" alt="Screenshot 2023-05-20 at 6 55 05 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/0d79a563-b911-4337-9918-919209fef24b">
     
     Casual riders have the greatest total rides on the weekends and the lowest total rides on the weekdays. Interestingly, members have the lowest total rides on the weekends and the greatest total rides on the weekdays. 
     
-    <img width="977" alt="Screenshot 2023-05-20 at 7 02 40 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/48792e45-f2ec-4864-9b70-bc53fd54fcbb">
+    <img width="977" alt="Screenshot 2023-05-20 at 7 02 40 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/24880cc6-77c5-45d1-af8c-2899081b8475">
     
     For both members and casual riders, 5PM is the most popular time of day to ride. When examining members, there are two peaks throughout the day that have the most total rides. The first peak is at 8AM and consists of 173,006 total rides and the second peak is at 5PM and consists of 286,415 rides. When examining casual riders, there are some peaks throughout the day but these peaks are relatively close to one another and indicates that there is a steady/gradual increase of total rides from the morning leading up to 5PM, which is the highest peak that consists of 167,967 total rides, before there is a drop in total rides after this point.
     
-    <img width="856" alt="Screenshot 2023-05-20 at 7 05 17 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/f07a3066-1d31-4134-9b1f-44c016cdc419">
+    <img width="856" alt="Screenshot 2023-05-20 at 7 05 17 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/2c0cc956-1c5d-41ae-a4a3-fe1898add215">
     
     June, July, and August is the most popular months for both casual riders and members while December, January, and February is the least popular months. There is minimal gap found between the total rides for members and causal riders for the month of July, thus indicating that July is the most favorable month for both types of riders.
     
-    <img width="573" alt="Screenshot 2023-05-20 at 7 07 58 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/ac1d0414-a619-4eb1-a2f5-f95ee2ff003d">
+    <img width="573" alt="Screenshot 2023-05-20 at 7 07 58 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/90097c7d-c6fb-4017-a183-30036f9f400f">
     
     Autumn and Summer are the most popular seasons to ride for both casual riders and members, with Summer consisting of the most total rides for both rider types. When examining casual riders, Summer is the most popular by far, consisting of 859,913 total rides which is roughly twice the amount of total rides found in Autumn. 
 
 4. *Average Ride Length by Day of the Week, Start Time of the Day, Month, and Season for Both Rider Types*
 
-    <img width="614" alt="Screenshot 2023-05-20 at 7 11 17 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/7be9e8f5-a59f-4e9a-94c9-a312d5130f68">
+     <img width="614" alt="Screenshot 2023-05-20 at 7 11 17 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/d7462e68-509e-4dd8-adfc-3915b004dbed">
     
     Overall, casual riders tend to ride for longer periods of time compared to members. For both rider types, the ride durations remain relatively stable throughout the week. However, the weekends consist of slightly longer ride durations compared to weekdays. 
     
-    <img width="980" alt="Screenshot 2023-05-20 at 7 11 25 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/73eaa728-fa67-4ed0-9fc3-a4184d6b8748">
+    <img width="980" alt="Screenshot 2023-05-20 at 7 11 25 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/d646f1b7-3535-4cf0-b617-492016d6cf46">
     
     Members and casual riders vary greatly in terms of their average ride length throughout the day. Throughout the day, the ride duration for members remain relatively stable and does not vary all that much. The lowest average ride length is around 10 minutes while the greatest is around 13 minutes. However, casual riders have average ride lengths that are as low as 15 minutes and as great as 28 minutes. Casual riders ride the longest between 10AM and 2PM and the shortest between 5AM to 8AM. 
     
-    <img width="818" alt="Screenshot 2023-05-20 at 7 11 53 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/f252e253-497b-404c-b4ae-0734d6f4f4c3">
+    <img width="818" alt="Screenshot 2023-05-20 at 7 11 53 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/8c8979c1-c66b-45e5-8100-93536cf34bb7">
     
     Members ride the longest in May, June, and July and casual riders ride the longest in April, May, and June. Once again, it is evident here that casual riders enjoy riding for longer durations of time compared to members. 
     
-    <img width="548" alt="Screenshot 2023-05-20 at 7 12 12 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/9012b296-e947-4ffc-92cd-94a38e63e024">
+    <img width="548" alt="Screenshot 2023-05-20 at 7 12 12 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/9c135057-72ca-4ed6-8897-26e7dced475f">
     
     Spring and Summer is the most popular times of the year for both members and casual riders. Members ride the longest in the Summer while casual riders ride the longest in the Spring. 
 
 5. *Top 10 Start and End Stations for Each Rider Type* 
 
-    <img width="1150" alt="Screenshot 2023-05-20 at 7 14 23 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/417fef23-2c03-461e-906d-f939ba0e1edd">
-   
-    <img width="1143" alt="Screenshot 2023-05-20 at 7 14 35 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/0b2fe705-ebd7-49cb-b1fc-834a6e2dab45">
+      <img width="1150" alt="Screenshot 2023-05-20 at 7 14 23 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/763ec254-f9c5-4a93-96ab-32c33d3e7523">
+      
+      <img width="1143" alt="Screenshot 2023-05-20 at 7 14 35 PM" src="https://github.com/Tgopal00/Google-Data-Analytics-Cyclistic-Case-Study/assets/118848690/b4bfc380-4e2b-44ff-969a-522231743fe2">
     
     In terms of start stations, casual riders begin most of their rides near parks, shorelines, shopping centers, restaurants, museums, and theaters, just to name a few. On the other hand, members often start their rides near grocery stores, food centers, transportation centers, universities, resedential areas, parks, and shorelines, just to name a few. There are some overlap between members and casual riders, such as their preference for parks, museums, and being near the shoreline. 
     
