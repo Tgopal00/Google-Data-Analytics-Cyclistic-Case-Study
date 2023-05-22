@@ -184,21 +184,21 @@ Based on my analysis, I found that there are differences between casual and annu
     In terms of end stations, both casual riders and members end at similar stations they started at. When examining casual riders, their third most popular end station is Millenium Park, which consists of a variety of leisure activities and attractions. 
 
 ## STEP 6: ACT
-## 6a. What are the main trends/relationships identified in the analysis? 
+### 6a. What are the main trends/relationships identified in the analysis? 
 - There are approximately 10% of casual riders that have a preference for docked bikes.
 - Casual riders ride approximately two times the amount of members and prefer to ride on the weekends whereas members prefer to ride on the weekdays. 
 - For members, work hours (8AM and 5PM) is considered the most popular time of day to ride and the duration of their trips are relatively stable. However, for casual riders, 5PM is considered the most popular time of day to ride but the duration of their trips are the longest from 10AM to 2PM.
 - Summer is the most popular time of the year for both casual riders and members. 
 - Preferred start and end stations of casual riders consist of parks, museums, theaters, shorelines, and other recreational sites, thus indicating their preference for attractions and leisure activities. Preferred start and end stations for members consist of universities, transporation centers, grocery stores, and resedential areas. 
 
-## 6b. How can these trends apply to Cyclistic's new marketing strategy?
+### 6b. How can these trends apply to Cyclistic's new marketing strategy?
 After identifying the main differences between casual riders and members, a new marketing strategy in order to convert casual riders into members should consider these three recommendations:
 
 1. Casual riders are the most active on weekends, during the summer months, and at attraction areas, and so it would be important to consider implementing new membership plans that would be benefical to casual riders. For instance, offering discounted membership plans during the summer months or weekend only memberships and placing these ads at the preferred start and end stations of casual riders. 
 2. Casual riders have a preference for docked bikes. Providing discounts or special offers on these types of bikes may convert some casual riders to members.
 3. Lastly, it would be wise to consider the trip durations of casual riders. Implementing a system where longer rides can equate to memberships discounts and sales may influence casual riders to convert to members.
 
-## 6c. Next steps/Future Directions
+### 6c. Next steps/Future Directions
 For the future growth of Cyclistic, it would be important to gather more data on the riders in order to bring in more customers. For example, knowing the age of people who frequently ride Cyclistic bikes and whether they are a student, employed, unemployed, etc. will allow for stronger marketing campaigns or even new membership plans (e.g. student or off-peak memberships) that can aid in the successful growth of Cyclistic.
 
 
